@@ -1,0 +1,23 @@
+/* Arka Planın Tam Ekran Olmasını Sağlar */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+}
+
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background:mediumorchid; 
+    z-index: 1;
+}
+
+.content {
+    position: relative;
+    z-index: 2;
+    top: 40%;
+    transform: translateY(-50%);
+}
